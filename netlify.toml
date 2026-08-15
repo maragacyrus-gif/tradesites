@@ -2,6 +2,11 @@
   command = "npm run build"
   publish = "dist"
 
+[build.environment]
+  GD_CLIENT_ID = "246230199916-hnd6ckev9t2l4kg0nr963kb0b0uha8fd.apps.googleusercontent.com"
+  GD_APP_ID = "246230199916"
+  GD_API_KEY = "AIzaSyBSJx3OuLYy-WzEtup3B8ekGXr_KTt8kCg"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
